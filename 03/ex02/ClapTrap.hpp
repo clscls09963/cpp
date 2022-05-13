@@ -3,7 +3,7 @@ using namespace std;
 
 class ClapTrap
 {
-    private:
+    protected:
         string name;
         unsigned int Hit_points;
         unsigned int Energy_points;

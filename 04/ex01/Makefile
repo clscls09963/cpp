@@ -1,13 +1,13 @@
 
-SRCS	= main.cpp ClapTrap.cpp
+SRCS	= main.cpp Animal.cpp Cat.cpp Dog.cpp WrongAnimal.cpp WrongCat.cpp
 OBJS	= $(SRCS:.cpp=.o)
-NAME	= ClapTrap
+NAME	= Polymorphism
 
 CXX			= c++
 CXXFLAGS	= -Wall -Wextra -Werror -std=c++98
 
 INCLUDE	= none
-HEADER	= ClapTrap.hpp
+HEADER	= Animal.hpp Cat.hpp Dog.hpp WrongAnimal.hpp WrongCat.hpp
 
 all:	$(NAME)
 

@@ -56,7 +56,7 @@ ClapTrap::ClapTrap()
     Hit_points = 10;
     Energy_points = 10;
     Attack_damage = 0;
-    name = " ";
+    name = "Unknown";
     cout << "ClapTrap " << this->name << " appeared!!" << endl;
 }
 
